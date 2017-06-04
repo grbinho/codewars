@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars", "Codewars\Codewars.csproj", "{8980A933-9DCA-4172-B777-30FB2CC63E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars.Tests", "Codewars.Tests\Codewars.Tests.csproj", "{21D334C3-71CA-4A60-9479-535C8DC001EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8980A933-9DCA-4172-B777-30FB2CC63E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8980A933-9DCA-4172-B777-30FB2CC63E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8980A933-9DCA-4172-B777-30FB2CC63E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8980A933-9DCA-4172-B777-30FB2CC63E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D334C3-71CA-4A60-9479-535C8DC001EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D334C3-71CA-4A60-9479-535C8DC001EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D334C3-71CA-4A60-9479-535C8DC001EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D334C3-71CA-4A60-9479-535C8DC001EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
