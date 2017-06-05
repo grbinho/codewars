@@ -10,7 +10,7 @@ namespace Codewars
             var timer = new Stopwatch();
             timer.Start();
 
-            var res = okkOokOoKata.okkOokOo("sdafasdf");
+            var res = RemovedNumbers.removNb(5);
 
             timer.Stop();
             Console.WriteLine($"Result {res} in {timer.ElapsedMilliseconds} ms");
