@@ -16,6 +16,8 @@ namespace Codewars
             var totalSum = n*(n+1)/2;
             var result = new List<long[]>();
 
+            //Better way is => b = (totalSum - a)/(a+1)
+
             long a = n/2;
             long b = n - 1;
             long current = 0; 
