@@ -154,6 +154,36 @@ namespace Codewars.Tests
       }
     }
   }
+
+  public class FunctionalStreamsSequenceTests
+  {
+    [Fact]
+    public void Fib()
+    {
+      var s = Stream.Fib();      
+      var f = new int[] {0,1,1,2,3,5,8};
+      
+      for(var i = 0; i<6; i++)
+      {
+        var v = s.Head;
+        Assert.Equal(f[i],v);
+        s = s.Tail.Value;
+      }
+    }
+
+    [Fact]
+    public void Primes()
+    {
+      var s = Stream.Primes();
+      var p = new int[] {2,3,5,7,11,13,17,19,23,29,31,37};
+      for(var i = 0; i<12;i++)
+      {
+        var v = s.Head;
+        Assert.Equal(p[i], v);
+        s = s.Tail.Value;
+      }
+    }
+  }
 }
 
 
